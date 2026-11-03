@@ -1,0 +1,119 @@
+* {
+    padding: O;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#course-title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-size: 25px;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(75, 14, 14);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+    padding: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main h1 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+main section{
+    display: grid;
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.moi {
+    display: flex;
+    flex-direction: row;
+}
+
+.img1 {
+    width: 160px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card {
+    display: grid;
+
+}
+
+.tout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.img2 {
+    width: 250px;
+    height: auto;
+}
+
+.all {
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 8px;
+}
+
+.all h2 {
+    text-align: center;
+    background-color: rgb(92, 0, 0);
+    color: white;
+    padding: 10px;
+}
+
+.all h3 {
+    text-align: center;
+}
+
+.all p {
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bless {
+    color: blue;
+}
+
+.all .card .jolie .jeu nav {
+    background-color: black;
+}
