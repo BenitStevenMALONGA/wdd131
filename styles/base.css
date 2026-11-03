@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+header, main, footer {
+    padding: auto;
+}
+
 #course-title {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,7 +30,6 @@ nav {
     justify-content: space-around;
     align-items: center;
     color: white;
-
     padding: 10px;
 }
 
